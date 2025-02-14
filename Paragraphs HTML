@@ -1,0 +1,21 @@
+<!-- Parrafos -->
+<p>This is a paragraph</p>
+<p>This is another paragraph</p>
+
+<!-- Visualizacion HTML -->
+<p>
+This paragraph
+contains a lot of lines 
+in the source code, 
+but the browser
+ignore it.
+</p>
+
+<p>
+This paragraph 
+contains        a lott of spaces
+in the souce     code,
+but the     browser 
+ignores it.
+</p>
+
