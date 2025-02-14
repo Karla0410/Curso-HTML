@@ -2,8 +2,20 @@
 <html>
 <body>
 
-<h1>My first Heading</h1>
+<!-- Encabezádos -->
+<h1>My first Heading 1</h1>
+<h2>My first Heading 2</h2>
+<h3>My first Heading 3</h3>
+
+<!-- Parrafos -->
 <p>My first paragraph</p>
+<p>My first another paragraph</p>
+
+<!-- Enlaces --> 
+<a href="https://www.w3schools.com">This is a link</a>
+
+<!-- Imagenes -->
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" heigth="142">
 
 </body>
 </html>
