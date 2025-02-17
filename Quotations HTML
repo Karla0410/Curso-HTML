@@ -1,0 +1,35 @@
+<!-- HTML <blockquote>para citas -->
+<p>Aquí hay una cita del sitio web de WWF:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+Durante 60 años, WWF ha trabajado para ayudar a las personas y a la naturaleza a prosperar. Como organización conservacionista líder en el mundo, WWF trabaja en casi 100 países. En todos los niveles, colaboramos con personas de todo el mundo para desarrollar y ofrecer soluciones innovadoras que protejan a las comunidades, la vida silvestre y los lugares en los que viven.
+</blockquote>
+
+<!-- HTML <q> para citas cortas -->
+<p>El objetivo de WWF es: <q>Construir un futuro donde las personas vivan en armonía con la naturaleza.</q></p>
+
+<!-- HTML <abbr> para abreviaturas -->
+<p>El <abrr title="Organización Mundial de la Salud">OMS</abbr>fue fundada en 1948</P>
+
+<!-- HTML <direccion> para informacion de contacto -->
+<address>
+Escrito por John Doe.<br>
+Visítanos en:<br>
+Ejemplo.com<br>
+Caja 564, Disneylandia<br>
+EE.UU
+</address>
+
+<!-- HTML <cita> para el titulo del trabajo -->
+<p><cite>El grito</cite> de Edvard Munch pintado en 1893</P>
+
+<!-- HTML <bdo> para anulacion bidireccional -->
+<bdo dir="rtl">Este texto se escribira de derecha a izquierda</bdo>
+
+
+
+
+
+
+
+
+
