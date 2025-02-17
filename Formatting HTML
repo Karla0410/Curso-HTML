@@ -1,0 +1,26 @@
+<!-- Elementos HTML <b> y <strong> -->
+<b>Este texto esta en negritas</b>
+<strong>Este texto es importante</strong>
+
+<!-- HTML <i> y <em> Elementos -->
+<i>Este texto esta en curziva</i>
+<em>Este texto se destaca</em>
+
+<!-- Elementos <pequeños> -->
+<small>Este es un texto más pequeño</small>
+
+<!-- Elementos <marca> -->
+<p>No olvides comprar<mark>leche</mark>hoy</p>
+
+<!-- Elementos <del> -->
+<p>Mi color favorito es<del>rosa</del>rojo</P>
+
+<!-- Elementos <ins> -->
+<p>Mi color favorito es<del>rosa</del><ins>rojo</ins></p>
+
+<!-- Elementos <sub> -->
+<p>Esta es <sub>subscripcion</sub> texto</P>
+
+<!-- Elementos <sup> -->
+<p>Esto es <sup>subscripcion</sup> texto</p>
+
