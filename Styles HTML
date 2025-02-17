@@ -1,0 +1,36 @@
+<!-- Atributro de estilo -->
+<tagname style="property:value;"
+
+<!-- Color de fondo -->
+<body style="background-color:powderblue;">
+
+<h1>Este es un titulo</h1>
+<p>Este es un parrafo</p>
+
+</body>
+
+<body>
+
+<h1 style="background-color:powerblue;">Este es un titulo</h1>
+<p style="background-color:tomato;">Este es un parrafo</p>
+
+</body>
+
+<!-- Color de texto -->
+<h1 style="color:blue;">Este es un titulo</h1>
+<p style="color:res;">Este es un parrafo</p>
+
+<!-- Fuentes -->
+<h1 style="font-family:verdana;">Este es un titulo</h1>
+<p style="font-family:courier;">Este es un parrafo</p>
+
+<!-- Tamaño del texto -->
+<h1 style="font-size:300%;"Este es un titulo</h1>
+<p style="font-size:160%;">Este es un parrafo</p>
+
+<!-- Alineacion de texto -->
+<h1 style="text-align:center;">titulo centrado</h1>
+<p style="text-align:center;">parrafo centrado</p>
+
+
+
