@@ -1,0 +1,38 @@
+<!-- HTML Links - Syntax -->
+<a href="url">https://www.w3schools.com/">Visitar W3Schools.com!</a>
+
+<!-- HTML Links - El atributo de destino -->
+< a href="https://www.w3schools.com/" target="_blank">Visitar W3Schools!</a>
+
+<!-- URL absoluta frente a URL relativa -->
+<h2>Absoluta URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relativa URLs</h2>
+<p><a href="html_images.asp">HTML Imagenes</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+<!-- HTML Links - Usar una imagen como enlace -->
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+<!-- Enlacenla a una direccional de correo electrónico -->
+<a href="mailto:someone@example.com">Enviar email</a>
+
+<!-- Boton como enlace -->
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<!-- Titulos de enlace -->
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visitar el tutorial</a>
+
+<!-- Mas sobre URL absolutas y URL relativas -->
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+<a href="/html/default.asp">HTML tutorial</a>
+
+<a href="default.asp">HTML tutorial</a>
+
+
+
