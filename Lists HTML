@@ -1,0 +1,25 @@
+<!-- Lista HTML no ordenada -->
+<ul>
+<li>Cafe</li>
+<li>Te</li>
+<li>Leche</li>
+</ul>
+
+<!-- Lista HTML ordenada -->
+<ol>
+<li>Cafe</li>
+<li>Te</li>
+<li>Leche</li>
+</ol>
+
+<!-- Listas de descripcion HTML -->
+<dl>
+<dt>Cafe</dt>
+<dd>- bebida caliente negra</dd>
+<dt>Leche</dt>
+<dd>- bebida fría blanca</dd>
+</dl>
+
+
+
+
