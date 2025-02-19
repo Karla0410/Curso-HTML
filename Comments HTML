@@ -1,0 +1,20 @@
+<!-- Añadir comentarios -->
+<!-- Este es un comentario -->
+<p>Este es un parrafo</p>
+<!-- Recuerda agregar mas informacion aqui -->
+
+<!-- Ocultar contenido -->
+<p>Este es un parrafo</p>
+<!-- <p>Este es otro parrafo</p> -->
+<p>Este es un parrafo también</p>
+
+<p>Este es un parrafo</p>
+<!--
+<p>Mira esta genial imagen:</p>
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>Este es un parrafo tambien</p>
+
+<!-- Ocultar contenido en linea -->
+<p>Este <!-- gran texto --> es un parrafo</p>
+
