@@ -1,0 +1,20 @@
+<!-- Color de fondo -->
+<h1 style="background-color:Dodgerblue;">Hola Mundo</h1>
+<p style="background-color:Tomato;">Este es el texto.</p>
+
+<!-- Color del texto -->
+<h1 style="color:tomato;">Hola Mundo</h1>
+<p style="color:dodgerblue;">Este es el primer texto.</p>
+<p style="color:mediumseagreen;">Este es el segundo texto.</p>
+
+<!-- Color del borde -->
+<h1 style="border:2px solid Tomato;">Hola Mundo</h1>
+<h1 style="border:2px solid DodgerBlue;">Hola Mundo 1</h1>
+<h1 style="border:2px solid Violet;">Hola Mundo 2</h1>
+
+<!-- Valores de color -->
+<h1 style="background-color:rgb(255, 99, 71);">Hola</h1>
+<h1 style="background-color:#ff6347;">Hola 1</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">Hola 2</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">Hola 3</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">Hola 4</h1>
