@@ -34,5 +34,60 @@
 
 <a href="default.asp">HTML tutorial</a>
 
+<!-- Colores de enlace HTML -->
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<!-- Botones de enlace -->
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+
+<!-- Crear un marcaodr en HTML -->
+<h2 id="C4">Capitulo 4</h2>
+
+<a href="#C4">Saltar capitulo 4</a>
+
+<a href="html_demo.html#C4">Saltar capitulo 4</a>
+
+
+
+
+
+
 
 
