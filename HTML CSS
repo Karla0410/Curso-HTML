@@ -1,0 +1,106 @@
+<!-- CSS en linea -->
+<h1 style="color:blue;">Un titulo azul</h1>
+<p style="color:red;">Un parrafo rojo</p>
+
+<!-- CSS interno -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {color: red;}
+</style>
+</head>
+<body>
+
+<h1>Este es un titulo</h1>
+<p>Este es un parrafo</p>
+
+</body>
+</html>
+
+<!-- CSS externo -->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Este es un titulo</h1>
+<p>Este es un parrafo</p>
+
+</body>
+</html>
+
+<!-- style.css -->
+body {
+background-color: powderblue;
+}
+h1 {
+color: blue;
+}
+p {
+color: red;
+}
+
+<!-- Colores, fuentes y tamaños de CSS -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 { 
+color: azul;
+font-family: verdana;
+font-size: 300%
+}
+p{
+color: rojo;
+font-family: courienr;
+font-size: 160%
+}
+</style>
+</head>
+<body>
+
+<h1>Este es un titulo</h1>
+<p>Este es un parrafo</p>
+
+</body>
+</html>
+
+<!-- Borde CSS -->
+p {
+border: 2px solid powderblue;
+}
+
+<!-- Relleno CSS -->
+p {
+border: 2px solid powderblue;
+padding: 30px;
+}
+
+<!-- Margen CSS -->
+p { border: 2px solid powderblue; marginalización: 50px }
+
+<!-- Enlace a CSS externo -->
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+<link rel="stylesheet" href="/html/styles.css">
+
+<link rel="stylesheet" href="styles.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
