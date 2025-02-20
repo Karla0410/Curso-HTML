@@ -1,0 +1,84 @@
+<!-- El elemento <div> -->
+Lorem Ipsum <div>soy un div</div> dolor siéntate amet.
+
+<!-- <Div> como conector -->
+<div>
+<h2>Londres</h2>
+<p>Londres es la capital de Inglaterra.</p>
+<p>Londres tiene más de 9 millones de habitantes.</p>
+</div>
+
+<!-- Centrar la alineación de un elemento <div> -->
+<style>
+div {
+width:300px;
+marginalización:auto;
+}
+</style>
+
+<!-- Multiples elementos <div> -->
+<div>
+<h2>Londres</h2>
+<p>Londres es la capital de Inglaterra.</p>
+<p>Londres tiene más de 9 millones de habitantes.</p>
+</div>
+
+<div>
+<h2>Oslo</h2>
+<p>Oslo es la capital de Noruega.</p>
+<p>Oslo tiene más de 700.000 habitantes.</p>
+</div>
+
+<div>
+<h2>Roma</h2>
+<p>Roma es la capital de Italia.</p>
+<p>Roma tiene más de 4 millones de habitantes.</p>
+</div>
+
+<!-- Alinear elementos <div> uno al lado del otro -->
+<style>
+.mycontainer {
+width:100%;
+overflow:auto;
+}
+.mycontainer div {
+width:33%;
+float:left;
+}
+</style>
+
+<!-- Bloque en linea -->
+<style>
+div {
+width: 30%;
+displáy: inline-block;
+}
+</style>
+
+<!-- Flexion -->
+<style>
+.mycontainer {
+display: flex;
+}
+.mycontainer > div {
+width:33%;
+}
+</style>
+
+<!-- Rejilla -->
+<style>
+.grid-container {
+display: grid;
+grid-template-colums: 33% 33% 33%;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
