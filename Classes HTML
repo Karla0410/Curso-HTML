@@ -1,0 +1,110 @@
+<!-- El atributo de la clase -->
+<html>
+<head>
+<style>
+.city {
+background-color: tomato;
+color: white;
+border: 2px solid black;
+margin: 20px;
+padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city"
+<h2>Londres</h2>
+<h2>Londres es la capital de Inglaterra</p>
+</div>
+
+<div class="city">
+<h2>Paris</h2>
+<p>Paris es la capital de Francia<p>
+</div>
+
+<div class="city">
+<h2>Tokyo</h2>
+<p>Tokyo es la capital de Japon</p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.note {
+font-size: 120%;
+color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>Mi <span class="note"> Titulo </span> Importante </h1>
+<p>Este es un <span class="note"> texto </span> importante.</p>
+
+</body>
+</html>
+
+<!-- La Sintaxis Para La Clase -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+background-color: tomato;
+color: white;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2 class="city">Londres</h2>
+<p>Londres es la capital de Inglaterra<p>
+
+<h2 class="city">Paris</h2>
+<p>Paris es la capital de Francia<p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo es la capital de Japon<p>
+
+</body>
+</html>
+
+<!-- Clases múltiples -->
+<h2 class="city main">Londres</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+<!-- Diferentes elementos pueden compartir las mismas clases -->
+<h2 class="city">Paris</h2>
+<p class="city">Paris es la capital de Francia</p>
+
+<!-- Uso del atributo de clase en JavaScript -->
+<script>
+function myFunction() {
+var x = documento.getElementsByClassName("city");
+for ( var i = 0; < x.length; i++) {
+x[i].style.display = "none";
+}
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
