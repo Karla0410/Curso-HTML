@@ -1,0 +1,73 @@
+<!-- El atributo id -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1 id="myHeader">Mi encabezado</h1>
+
+</body>
+</html>
+
+<!-- Diferencia entre clase e identificacion -->
+<style>
+/* style the element with the id "myHeader" */
+#myHeader {
+background-color: lightblue;
+color: black;
+padding: 40px;
+text-align: center;
+}
+
+/*style all elements with the class name "city" */
+.city {
+background-color: tomato;
+color: white;
+padding: 10px;
+}
+</style>
+
+<!-- Un elemento con una identificación única -->
+<h1 id="myHeader">Mis ciudades</h1>
+<!-- Múltiples elementos con la misma clase -->
+<h2 class="city">Londres</h2>
+<p>Londres es la capital de Inglaterra</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris es la capital de Francia</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo es la capital de Japon<p>
+
+<!-- Marcadores HTML con ID y enlaces -->
+<h2 id="C4">Capitulo 4</h2>
+<a href="#C4">Saltar al Capítulo 4</a>
+<a href="html_demo.html#C4">Saltar al Capítulo 4</a>
+
+<!-- Usando el atributo id en JavaScript -->
+<script>
+function displayResult() {
+document.getElementById("myHeader").innerHTML = "Que tengas un lindo dia!";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
