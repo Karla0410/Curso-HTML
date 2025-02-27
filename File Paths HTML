@@ -1,0 +1,9 @@
+<!-- Ruta de archivo absolutos -->
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+
+<!-- Ruta de archivos relativas -->
+<img src="/images/picture.jpg" alt="Mountain">
+
+<img src="images/picture.jpg" alt="Mountain">
+
+<img src="../images/picture.jpg" alt="Mountain">
