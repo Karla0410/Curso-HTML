@@ -1,0 +1,19 @@
+<!-- La etiqueta HTML <script> -->
+<script>
+document.getElementById("demo").innerHTML = "Hola JavaScript!";
+</script>
+
+<!-- Un sabor de JavaScript -->
+document.getElementById("demo").innerHTML = "Hola JavaScript!";
+
+document.getElementById("demo").style.fontSize = "25px";
+document.getElementById("demo").style.color = "rojo";
+document.getElementById("demo").style.backgroundColor = "amarillo";
+
+document.getElementById("image").src = "picture.gif";
+
+<!-- La etiqueta HTML <noscript> -->
+<script>
+document.getElementById("demo").innerHTML = "Hola JavaScript!";
+</script>
+<noscript>Lo sentimos, ¡tu navegador no soporta JavaScript!</noscript>
