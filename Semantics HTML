@@ -1,0 +1,141 @@
+<section>
+<h1>WWF</h1>
+<p>El Fondo Mundial para la Naturaleza (WWF) es una organización internacional que trabaja en temas relacionados con la conservación, la investigación y la restauración del medio ambiente, anteriormente denominada Fondo Mundial para la Naturaleza. WWF se fundó en 1961.</p>
+</section>
+
+<section>
+<h1>El símbolo del panda de WWF</h1>
+<p>El panda se ha convertido en el símbolo de WWF. El conocido logotipo del panda de WWF se originó a partir de un panda llamado Chi Chi, que fue trasladado del Zoológico de Pekín al Zoológico de Londres el mismo año de la fundación de WWF.</p>
+</section>
+
+<!-- Elemento HTML <artículo> -->
+<article>
+<h2>Google Chrome</h2>
+<p>Google Chrome es un navegador web desarrollado por Google, lanzado en 2008. ¡Chrome es el navegador web más popular del mundo hoy en día!</p>
+</article>
+
+<article>
+<h2>Mozilla Firefox</h2>
+<p>Mozilla Firefox es un navegador web de código abierto desarrollado por Mozilla. Firefox ha sido el segundo navegador web más popular desde enero de 2018.</p>
+</article>
+
+<article>
+<h2>Microsoft Edge</h2>
+<p>Microsoft Edge es un navegador web desarrollado por Microsoft, lanzado en 2015. Microsoft Edge reemplazó a Internet Explorer.</p>
+</article>
+
+<!-- Ejemplo 2-->
+<html>
+<head>
+<style>
+.all-browsers {
+margen: 0;
+relleno: 5px;
+color de fondo: gris claro;
+}
+
+.all-browsers > h1, .browser {
+margen: 10px;
+relleno: 5px;
+}
+
+.browser {
+fondo: blanco;
+}
+
+.browser > h2, p {
+margen: 4px;
+tamaño de fuente: 90%;
+}
+</style>
+</head>
+<body>
+
+<article class="all-browsers">
+<h1>Navegadores más populares</h1>
+<article class="browser">
+<h2>Google Chrome</h2>
+<p>Google Chrome es un navegador web desarrollado por Google, lanzado en 2008. ¡Chrome es el navegador web más popular del mundo hoy en día!</p>
+</article>
+<article class="browser">
+<h2>Mozilla Firefox</h2>
+<p>Mozilla Firefox es un navegador web de código abierto desarrollado por Mozilla. Firefox ha sido el segundo navegador web más popular desde enero de 2018.</p>
+</article>
+<article class="browser">
+<h2>Microsoft Edge</h2>
+<p>Microsoft Edge es un navegador web desarrollado por Microsoft, lanzado en 2015. Microsoft Edge reemplazó a Internet Explorer.</p>
+</article>
+</article>
+
+</body>
+</html>
+
+<!-- HTML <header> Elemento -->
+<article>
+<header>
+<h1>¿Qué hace WWF?</h1>
+<p>Misión de WWF:</p>
+</header>
+<p>La misión de WWF es detener la degradación del entorno natural de nuestro planeta y construir un futuro en el que los seres humanos vivan en armonía con la naturaleza.</p>
+</article>
+
+<!-- HTML <pie de página> Elemento -->
+<footer>
+<p>Author: Hege Refsnes</p>
+<p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+<!-- Elemento HTML <nav> -->
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+<a href="/jquery/">jQuery</a>
+</nav>
+
+<!-- Elemento HTML <aside> -->
+<p>Mi familia y yo visitamos el Centro Epcot este verano. ¡El clima estuvo agradable y Epcot fue increíble! ¡Pasé un verano genial con mi familia!
+
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot es un parque temático en Walt Disney World Resort que ofrece emocionantes atracciones, pabellones internacionales, fuegos artificiales galardonados y eventos especiales de temporada.
+</p>
+</aside>
+
+<!-- Ejemplo 2 -->
+<html>
+<head>
+<style>
+aside {
+width: 30%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;
+font-style: italic;
+background-color: lightgray;
+}
+</style>
+</head>
+<body>
+
+<p>Mi familia y yo visitamos el Centro Epcot este verano. ¡El clima estuvo agradable y Epcot fue increíble! ¡Pasé un verano genial con mi familia!</p>
+
+<aside>
+<p>El Centro Epcot es un parque temático en Walt Disney World Resort que cuenta con emocionantes atracciones, pabellones internacionales, fuegos artificiales galardonados y eventos especiales de temporada.</p>
+</aside>
+
+<p>Mi familia y yo visitamos el Centro Epcot este verano. ¡El clima estuvo agradable y Epcot fue increíble! ¡Pasé un verano genial con mi familia!</p>
+<p>Mi familia y yo visitamos el Centro Epcot este verano. ¡El clima estuvo agradable y Epcot estuvo increíble! ¡Pasé un verano genial con mi familia!</p>
+
+</body>
+</html>
+
+<!-- Elementos HTML <figure> y <figcaption> -->
+<figure>
+<img src="pic_trulli.jpg" alt="Trulli">
+<figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+</figure>
+
+
+
+
