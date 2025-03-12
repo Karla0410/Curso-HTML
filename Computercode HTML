@@ -1,0 +1,40 @@
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+<!-- HTML <kbd> Para Entrada De Teclado -->
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+<!-- HTML <samp> Para La Salida Del Programa -->
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+<!-- HTML <code> Para Código Informático -->
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+<!-- Conservar los sallos de línea -->
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+
+<!-- HTML <var> Para Variables -->
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+
+
+
+
+
+
+
+
