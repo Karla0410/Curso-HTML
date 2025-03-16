@@ -1,0 +1,142 @@
+<!-- El atributo de valor -->
+<form>
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Apellido:</label><br>
+<input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<!-- El atributo de solo lectura -->
+<form>
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" value="John" readonly><br>
+<label for="lname">Apellido:</label><br>
+<input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<!-- El atributo deshabilitado -->
+<form>
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" value="John" disabled><br>
+<label for="lname">Apellido:</label><br>
+<input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<!-- El atributo de tamaño -->
+<form>
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" size="50"><br>
+<label for="pin">PIN:</label><br>
+<input type="text" id="pin" name="pin" size="4">
+</form>
+
+<!-- El atributo maxlength -->
+<form>
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" size="50"><br>
+<label for="pin">PIN:</label><br>
+<input type="text" id="pin" name="pin" maxlength="4" size="4">
+</form>
+
+<!-- Los atributos mínimo y máximo -->
+<form>
+<label for="datemax">Introduzca una fecha anterior al 1 de enero de 1980:</label>
+<input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+<label for="datemin">Introduzca una fecha posterior al 01/01/2000:</label>
+<input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+<label for="quantity">Cantidad (entre 1 y 5):</label>
+<input type="number" id="quantity" name="quantity" min="1" max="5">
+</form>
+
+<!-- El atributo múltiple -->
+<form>
+<label for="files">Seleccionar archivos:</label>
+<input type="file" id="files" name="files" multiple>
+</form>
+
+<!-- El atributo del patrón -->
+<form>
+<label for="country_code">Código del país:</label>
+<input type="text" id="country_code" name="country_code"
+pattern="[A-Za-z]{3}" title="Three letter country code">
+</form>
+
+<!-- El atributo de marcador de posición -->
+<form>
+<label for="phone">Introduzca un número de teléfono:</label>
+<input type="tel" id="phone" name="phone"
+placeholder="123-45-678"
+pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+
+<!-- El atributo requerido -->
+<form>
+<label for="username">Usuario:</label>
+<input type="text" id="username" name="username" required>
+</form>
+
+<!-- El atributo del paso -->
+<form>
+<label for="points">Points:</label>
+<input type="number" id="points" name="points" step="3">
+</form>
+
+<!-- El atributo de enfoque automático -->
+<form>
+<label for="fname">Nombre:</label><br>
+<input type="text" id="fname" name="fname" autofocus><br>
+<label for="lname">Apellido:</label><br>
+<input type="text" id="lname" name="lname">
+</form>
+
+<!-- Los atributos de altura y anchura -->
+<form>
+<label for="fname">Nombre:</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">Apellido:</label>
+<input type="text" id="lname" name="lname"><br><br>
+<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+</form>
+
+<!-- El atributo de la lista -->
+<form>
+<input list="browsers">
+<datalist id="browsers">
+<option value="Edge">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+</form>
+
+<!-- El atributo de autocompletar -->
+<form action="/action_page.php" autocomplete="on">
+<label for="fname">Nombre:</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">Apellido:</label>
+<input type="text" id="lname" name="lname"><br><br>
+<label for="email">Correo:</label>
+<input type="email" id="email" name="email" autocomplete="off"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
