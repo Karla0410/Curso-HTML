@@ -1,0 +1,14 @@
+<!-- El atributo de conjunto de caracteres HTML -->
+<meta charset="UTF-8">
+
+<!-- El conjunto de personajes ANSI -->
+<meta charset="Windows-1252">
+
+<!-- El Conjunto De Caracteres ISO-8859-1 -->
+<!-- HTML 4 -->
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<!-- HTML 5 -->
+<meta charset="ISO-8859-1">
+
+<!-- El conjunto de caracteres UTF-8 -->
+<meta charset="UTF-8">
