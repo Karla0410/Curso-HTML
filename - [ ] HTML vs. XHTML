@@ -1,0 +1,76 @@
+<!-- XHTML - <! DOCTYPE .... > Es obligatorio -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Título del documento</title>
+</head>
+<body>
+
+Contenido aquí..
+
+</body>
+</html>
+
+<!-- Los elementos XHTML deben estar correctamente anidados -->
+<!-- Correcto -->
+<b><i>Algo de texto</i></b>
+
+<!-- Incorrecto -->
+<b><i>Algo de texto</b></i>
+
+<!-- Los elementos XHTML siempre deben estar cerrados -->
+<!-- Correcto -->
+<p>Este es un párrafo</p>
+<p>Este es otro párrafo</p>
+
+<!-- Incorrecto -->
+<p>Este es un párrafo
+<p>Este es otro párrafo
+
+<!-- Los elementos vacíos de XHTML siempre deben estar cerrados -->
+<!-- Correcto-->
+A break: <br />
+A horizontal rule: <hr />
+An image: <img src="happy.gif" alt="Happy face" />
+<!-- Incorrecto -->
+A break: <br>
+A horizontal rule: <hr>
+An image: <img src="happy.gif" alt="Happy face">
+
+<!-- Los elementos XHTML deben estar en minúsculas -->
+<!-- Correcto-->
+<body>
+<p>Este es un parrafo</p>
+</body>
+<!-- Incorrecto -->
+<BODY>
+<P>Este es un parrafo</P>
+</BODY>
+
+<!-- Los nombres de los atributos XHTML deben estar en minúsculas -->
+<!-- Correcto-->
+<a href="https://www.w3schools.com/html/">Visite nuestro tutorial de HTML</a>
+<!-- Incorrecto -->
+<a HREF="https://www.w3schools.com/html/">Visite nuestro tutorial de HTML</a>
+
+<!-- Los valores de los atributos XHTML deben ser cotizados -->
+<!-- Correcto-->
+<a href="https://www.w3schools.com/html/">Visite nuestro tutorial de HTML</a>
+<!-- Incorrecto -->
+<a href=https://www.w3schools.com/html/>Visite nuestro tutorial de HTML</a>
+
+<!-- La minimización de atributos XHTML está prohibida -->
+<!-- Correcto-->
+<input type="checkbox" name="vehicle" value="car" checked="checked" />
+<input type="text" name="lastname" disabled="disabled" />
+<!-- Incorrecto -->
+<input type="checkbox" name="vehicle" value="car" checked />
+<input type="text" name="lastname" disabled />
+
+
+
+
+
+
+
