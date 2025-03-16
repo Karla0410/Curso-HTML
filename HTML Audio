@@ -1,0 +1,28 @@
+<!-- El elemento HTML <audio> -->
+<audio controls>
+<source src="horse.ogg" type="audio/ogg">
+<source src="horse.mp3" type="audio/mpeg">
+Su navegador no soporta el elemento de audio.
+</audio>
+
+<!-- HTML <audio> Reproducción automática -->
+<audio controls autoplay>
+<source src="horse.ogg" type="audio/ogg">
+<source src="horse.mp3" type="audio/mpeg">
+Su navegador no soporta el elemento de audio.
+</audio>
+
+<audio controls autoplay muted>
+<source src="horse.ogg" type="audio/ogg">
+<source src="horse.mp3" type="audio/mpeg">
+Su navegador no soporta el elemento de audio.
+</audio>
+
+
+
+
+
+
+
+
+
