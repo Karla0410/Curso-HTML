@@ -1,0 +1,4 @@
+<!-- Entidades de simbolos HTML -->
+<p>Mostraré €</p>
+<p>Mostraré &#8364;</p>
+<p>Mostraré &#x20AC;</p>
