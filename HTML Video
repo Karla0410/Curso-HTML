@@ -1,0 +1,38 @@
+<!-- El elemento HTML <video> -->
+<video width="320" height="240" controls>
+<source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+Su navegador no soporta la etiqueta de vídeo.
+</video>
+
+<!-- HTML <video> Reproducción automática -->
+<video width="320" height="240" autoplay>
+<source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+Su navegador no soporta la etiqueta de vídeo.
+</video>
+
+<video width="320" height="240" autoplay muted>
+<source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+Su navegador no soporta la etiqueta de vídeo.
+</video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
