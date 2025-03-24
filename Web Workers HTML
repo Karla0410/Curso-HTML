@@ -1,0 +1,71 @@
+<!-- Compruebe el soporte de la API de Web Worker -->
+<script>
+const x = document.getElementById("result");
+if(typeof(Worker) !== "undefined") {
+x.innerHTML = "Your browser support Web Workers!";
+} else {
+x.innerHTML = "Sorry, your browser does not support Web Workers.";
+}
+</script>
+
+<!-- Crear un archivo de trabajador web .js -->
+var i = 0;
+
+function timedCount() {
+i = i + 1;
+postMessage(i);
+setTimeout("timedCount()",500);
+}
+
+timedCount();
+
+<!-- Crear un objeto de trabajador web -->
+if (typeof(w) == "undefined") {
+w = new Worker("demo_workers.js");
+}
+
+w.onmessage = function(event){
+document.getElementById("result").innerHTML = event.data;
+};
+
+<!-- Ejemplo de trabajador web completo -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Count numbers: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button>
+<button onclick="stopWorker()">Stop Worker</button>
+
+<script>
+let w;
+
+function startWorker() {
+const x = document.getElementById("result");
+if (typeof(Worker) !== "undefined") {
+if (typeof(w) == "undefined") {
+w = new Worker("demo_workers.js");
+}
+w.onmessage = function(event) {
+x.innerHTML = event.data;
+};
+} else {
+x.innerHTML = "Sorry! No Web Worker support.";
+}
+}
+
+function stopWorker() {
+w.terminate();
+w = undefined;
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
